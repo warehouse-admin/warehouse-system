@@ -1,0 +1,9 @@
+﻿{
+    "deploy":  {
+                   "startCommand":  "node server.mjs",
+                   "restartPolicyType":  "always"
+               },
+    "build":  {
+                  "builder":  "nixpacks"
+              }
+}
